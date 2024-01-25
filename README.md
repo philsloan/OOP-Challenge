@@ -65,7 +65,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 
 ## Walkthrough Video:
-[Click Here to Watch]()
+[Click Here to Watch](https://drive.google.com/file/d/1RoXDbfhXQtLK6alO4fie-x5LdO0bt5Uj/view)
 
 
 
@@ -105,7 +105,7 @@ SOFTWARE.
   
 ## Author
 
-Follow me on Github at 
+Follow me on Github! 
 
 See you soon!
 

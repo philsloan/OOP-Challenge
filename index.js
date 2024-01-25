@@ -1,7 +1,9 @@
+// Module Imports
 const inquirer = require('inquirer');
 const fs = require('fs');
 const { Triangle, Circle, Square } = require('./shapes/shapes.js');
 
+// We use Inquirer to propt an input from the user
 inquirer
     .prompt([
         {
@@ -42,7 +44,7 @@ inquirer
             default:
                 throw new Error('Invalid shape');
         }
-
+        // We use this to write and save our svg
         fs.writeFile('./examples/logo.svg', shapeInstance.render(), (error) => {
             if (error) {
                 console.error(error);

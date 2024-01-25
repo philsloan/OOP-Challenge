@@ -6,6 +6,7 @@ class Shape {
   }
 }
 
+// This is the Triangle
 class Triangle extends Shape {
   render() {
     return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -15,6 +16,7 @@ class Triangle extends Shape {
   }
 }
 
+// This is the... you guessed it the circle!
 class Circle extends Shape {
   render() {
     return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -24,6 +26,7 @@ class Circle extends Shape {
   }
 }
 
+// This is the Square!!! YippEE!!
 class Square extends Shape {
   render() {
     return `<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">
@@ -33,27 +36,6 @@ class Square extends Shape {
   }
 }
 
+
+// Allows the moduel to be exported
 module.exports = { Triangle, Square, Circle };
-
-
-
-
-
-
-
-
-
-
-
-
-
-// class Triangle extends Shape {
-//   constructor(data) {
-//     super(data);
-//   }
-//   render() {
-//     return `<polygon points="100 0, 0 ,0 50, 100" fill="${this.logoColor}" />`;
-//   }
-// }
-
-// module.exports = Triangle;
