@@ -72,6 +72,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## What I Learned
 - Developed an application that is not deployed and is triggered by the command "node index.js" in the command line to produce a logo, saving it as an SVG file.
 - Acquired proficiency in using the JavaScript testing framework "Jest."
+- how to create and use a snapshot.
 - How to properly build a walkthrough video and README file.
 
 
