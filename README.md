@@ -14,7 +14,7 @@ The application allows users to input information through an Inquirer prompt, fa
 - [What I Learned](#What-I-Learned)
 - [License](#License)
 - [Author](#Author)
-- [Acknowledgments](#Acknowledgments)
+
 
 # Overview
 
@@ -51,7 +51,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 ## Installation
 1. Open VScode and begin a new index.js file.
 2. In the terminal use "npm install inquirer@6.5.0"
-3. Build files and ren tests.
+3. Build files and run tests using npx jest.
 
 
 ## Usage Instructions
@@ -64,7 +64,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 
 
-## YWalkthrough Video:
+## Walkthrough Video:
 [Click Here to Watch]()
 
 
@@ -77,7 +77,7 @@ THEN I am shown a 300x200 pixel image that matches the criteria I entered
 
 
 
-## License & Copyright ©
+## License 
   
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [Open Source Initiative Link](https://opensource.org/licenses/MIT)
 
